@@ -2,9 +2,7 @@
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_groq import ChatGroq
-from dotenv import load_dotenv
 import streamlit as st
-import os
 ##streamlit
 st.title("CHATBOT USING GEMMA2:9B:IT AND GROQ API")
 st.write("plaese Enter your groq api key to pull the model")
